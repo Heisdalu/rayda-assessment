@@ -88,7 +88,7 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <div className="mt-[1.5rem] overflow-hidden md:mt-[0] relative up">
+            <div className="mt-[1.5rem] overflow-hidden md:mt-[0] relative">
               <Image
                 src="/aeroplane.jpg"
                 width={0}
