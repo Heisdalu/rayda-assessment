@@ -88,7 +88,7 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <div className="mt-[1.5rem] overflow-hidden bg-pink-500 md:mt-[0]">
+            <div className="mt-[1.5rem] overflow-hidden md:mt-[0]">
               <Image
                 src="/aeroplane.jpg"
                 width={0}
