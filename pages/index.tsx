@@ -280,7 +280,7 @@ export default function Home() {
               offers about Jadoo
             </h1>
 
-            <div className="space-x-[1rem]">
+            <div className="flex flex-col items-center space-y-[1rem] md:space-y-0 md:flex-row md:space-x-[1rem]">
               <input
                 type="text"
                 className="py-1 rounded-[0.5rem] bg-white md:py-[1rem] md:w-[300px]"
