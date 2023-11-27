@@ -165,7 +165,7 @@ export default function Home() {
               image="/europe.jpg"
               text="Full Europe"
               amount="28"
-              days="1"
+              days="3"
             />
           </div>
         </Wrapper>
