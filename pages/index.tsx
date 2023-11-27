@@ -127,7 +127,7 @@ export default function Home() {
             />
             <Category
               image="/microphone.png"
-              title="Calculated Weather"
+              title="Local Events"
               text="Barton vanity itself do in it. Prefered to men it engrossed listening."
             />
             <Category

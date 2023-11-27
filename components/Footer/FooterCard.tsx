@@ -8,9 +8,11 @@ const FooterCard = ({ title, list }: FooterCardProps) => {
     <div className="space-y-[0.5rem]">
       <h1 className="text-black text-[1.1rem] font-[600]">{title}</h1>
       <div className="flex flex-col space-y-[0.5rem]">
-        <a href="">About</a>
-        <a href="">Careers</a>
-        <a href="">Mobile</a>
+        {list.map((el, i) => (
+          <a key={i} href="" className="hover:text-gray-400">
+            {el}
+          </a>
+        ))}
       </div>
     </div>
   );
