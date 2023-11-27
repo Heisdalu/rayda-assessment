@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className={`${dmSan.className}`}>
       <div className="bg-orange-50 py-[0.5rem] md:py-[1rem] lg:py-[1.5rem]">
-        <div className="relative space-y-[1.5rem] px-[1rem] md:px-[2rem] md:flex md:justify-between md:items-center md:space-y-0 lg:px-[4rem]">
+        <div className="relative space-y-[1.5rem] px-[1rem] md:px-[2rem] md:flex md:justify-between md:items-center md:space-y-0 lg:px-[4rem] lg:max-w-[1700px] lg:mx-auto">
           <div className="flex items-center">
             <h1 className="text-[#000] text-[1.5rem] md:text-[1.5rem] lg:text-[1.75rem]">
               MKS
@@ -70,7 +70,7 @@ export default function Home() {
               </p>
 
               <p className="max-w-[400px] mt-[1rem]">
-                Built Wicket longer admire do barton vanity itself do in it.
+                Built Wicked longer admire do barton vanity itself do in it.
                 Preferred to sportsmen it engrossed listening. Park gate sell
                 they west hard for the.
               </p>
@@ -82,13 +82,13 @@ export default function Home() {
 
                 <button className="font-[500] space-x-[0.7rem] flex items-center px-[1rem] py-[0.5rem] bg-yellow-300 rounded-[0.3rem] md:px-[1.5rem] md:py-[0.8rem]">
                   <span className="flex justify-center items-center rounded-full  h-[20px] w-[20px] md:h-[30px] md:w-[30px] bg-green-400">
-                    <span className="ml-[5px] block h-[0] w-[0] [border:3px_solid_transparent] [border-left:6px_solid_#ffffff] md:border-[5px] md:border-l-[10px]"></span>
+                    <span className="ml-[5px] block h-[0] w-[0] [border:3px_solid_transparent] [border-left:6px_solid_white] md:border-[5px] md:border-l-[10px]"></span>
                   </span>
                   <span>Play Demo</span>
                 </button>
               </div>
             </div>
-            <div className="mt-[1.5rem] overflow-hidden md:mt-[0]">
+            <div className="mt-[1.5rem] overflow-hidden md:mt-[0] relative up">
               <Image
                 src="/aeroplane.jpg"
                 width={0}
