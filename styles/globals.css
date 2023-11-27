@@ -13,6 +13,14 @@
   border-left: 10px solid #ffffff;
 }
 
+.up::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-color: #ffc0cb67;
+}
 
 .play {
   margin-left: 5px;

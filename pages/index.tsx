@@ -19,37 +19,40 @@ export default function Home() {
       <div className="bg-orange-50 py-[0.5rem] md:py-[1rem] lg:py-[1.5rem]">
         <div className="relative space-y-[1.5rem] px-[1rem] md:px-[2rem] md:flex md:justify-between md:items-center md:space-y-0 lg:px-[4rem] lg:max-w-[1700px] lg:mx-auto">
           <div className="flex items-center">
-            <h1 className="text-[#000] text-[1.5rem] md:text-[1.5rem] lg:text-[1.75rem]">
+            <h1 className="text-[#000] font-[900] text-[1.5rem] md:text-[1.5rem] lg:text-[1.75rem]">
               MKS
             </h1>
             <a
               href=""
-              className="ml-auto md:hidden px-[0.5rem] py-[0.3rem] rounded-[0.3rem]"
+              className="border-1 border-gray-400 ml-auto md:hidden px-[0.5rem] py-[0.3rem] rounded-[0.3rem]"
             >
               Bookings
             </a>
           </div>
           {/* add flex to shwo it */}
           <nav className="absolute hidden top-[2rem] left-[0] w-[100%] z-[2] flex-col md:flex  md:flex-row md:space-x-[1rem] md:items-center md:relative md:top-0 md:left-0 md:w-[auto]">
-            <a href="" className=" p-[0.5rem] lg:px-[1rem] ">
+            <a href="" className="hover:text-gray-400 p-[0.5rem] lg:px-[1rem] ">
               Destination
             </a>
-            <a href="" className=" p-[0.5rem] lg:px-[1rem] ">
+            <a href="" className="hover:text-gray-400 p-[0.5rem] lg:px-[1rem] ">
               Hotels
             </a>
-            <a href="" className="p-[0.5rem] lg:px-[1rem] ">
+            <a href="" className="hover:text-gray-400 p-[0.5rem] lg:px-[1rem] ">
               Flights
             </a>
-            <a href="" className="p-[0.5rem] lg:px-[1rem] ">
+            <a href="" className="hover:text-gray-400 p-[0.5rem] lg:px-[1rem] ">
               Bookings
             </a>
-            <a href="" className="p-[0.5rem] lg:px-[1rem] ">
+            <a href="" className="hover:text-gray-400 p-[0.5rem] lg:px-[1rem] ">
               Login
             </a>
-            <a href="" className="border-1 rounded-[0.3rem] p-[0.5rem]">
+            <a
+              href=""
+              className="hover:text-gray-400 border-1 rounded-[0.3rem] p-[0.5rem]"
+            >
               Sign up
             </a>
-            <a href="" className="p-[0.5rem] lg:px-[1rem] ">
+            <a href="" className="hover:text-gray-400 p-[0.5rem] lg:px-[1rem] ">
               EN
             </a>
           </nav>
@@ -80,7 +83,7 @@ export default function Home() {
                   Find out more
                 </button>
 
-                <button className="font-[500] space-x-[0.7rem] flex items-center px-[1rem] py-[0.5rem] bg-yellow-300 rounded-[0.3rem] md:px-[1.5rem] md:py-[0.8rem]">
+                <button className="font-[500] space-x-[0.7rem] flex items-center px-[1rem] py-[0.5rem] rounded-[0.3rem] md:px-[1.5rem] md:py-[0.8rem]">
                   <span className="flex justify-center items-center rounded-full  h-[20px] w-[20px] md:h-[30px] md:w-[30px] bg-green-400">
                     <span className="play"></span>
                   </span>
@@ -90,7 +93,7 @@ export default function Home() {
             </div>
             <div className="mt-[1.5rem] overflow-hidden md:mt-[0] relative">
               <Image
-                src="/aeroplane.jpg"
+                src="/aeroBg.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -293,7 +296,7 @@ export default function Home() {
       <footer>
         <Wrapper className="py-[2rem] space-y-[1.5rem] md:py-[3rem] md:grid md:grid-cols-5 md:space-y-[0] [grid-gap:1rem] lg:py-[4rem]">
           <div>
-            <h1 className="text-[1.5rem] font-[700] lg:text-[1.75rem]">MKS</h1>
+            <h1 className="text-[1.5rem] font-[900] lg:text-[1.75rem]">MKS</h1>
             <h1>Book your trip in minutes</h1>
           </div>
 
