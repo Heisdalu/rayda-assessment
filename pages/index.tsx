@@ -173,7 +173,7 @@ export default function Home() {
 
       <section>
         <Wrapper className="py-[2rem] md:py-[3rem] space-y-[3rem] lg:py-[4rem]">
-          <div className="md:grid md:grid-cols-2 md:items-center md:[grid-gap:2rem]">
+          <div className="space-y-[1rem] md:space-y-[0] md:grid md:grid-cols-2 md:items-center md:[grid-gap:2rem]">
             <div className="text-center space-y-1">
               <h1 className="font-[700] text-left uppercase text-gray-500">
                 Easy and Fast
