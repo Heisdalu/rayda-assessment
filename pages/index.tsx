@@ -225,7 +225,7 @@ export default function Home() {
             </h3>
           </div>
 
-          <div className="space-y-[1.5rem] text-center max-w-[400px] mx-auto md:max-w-[500px] md:text-left">
+          <div className="space-y-[1.5rem] text-center max-w-[400px] mx-auto md:max-w-[450px] md:text-left">
             <div className="mx-auto  rounded-full md:mx-[0]">
               <Image
                 src="/man.jpg"
