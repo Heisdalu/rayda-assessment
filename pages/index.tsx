@@ -82,7 +82,7 @@ export default function Home() {
 
                 <button className="font-[500] space-x-[0.7rem] flex items-center px-[1rem] py-[0.5rem] bg-yellow-300 rounded-[0.3rem] md:px-[1.5rem] md:py-[0.8rem]">
                   <span className="flex justify-center items-center rounded-full  h-[20px] w-[20px] md:h-[30px] md:w-[30px] bg-green-400">
-                    <span className="ml-[5px] block h-[0] w-[0] [border:3px_solid_transparent] [border-left:6px_solid_white] md:border-[5px] md:border-l-[10px]"></span>
+                    <span className="play"></span>
                   </span>
                   <span>Play Demo</span>
                 </button>
@@ -226,7 +226,7 @@ export default function Home() {
           </div>
 
           <div className="space-y-[1.5rem] text-center max-w-[400px] mx-auto md:max-w-[450px] md:text-left">
-            <div className="mx-auto  rounded-full md:mx-[0]">
+            <div className="flex justify-center rounded-full  md:justify-start md:mx-[0]">
               <Image
                 src="/man.jpg"
                 width={100}
