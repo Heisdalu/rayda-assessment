@@ -283,7 +283,7 @@ export default function Home() {
             <div className="flex flex-col items-center space-y-[1rem] md:space-y-0 md:flex-row md:space-x-[1rem]">
               <input
                 type="text"
-                className="py-1 rounded-[0.5rem] bg-white md:py-[1rem] md:w-[300px]"
+                className="px-[0.5rem] py-1 rounded-[0.5rem] bg-white md:py-[1rem] md:w-[300px]"
               />
               <button className="font-[500] px-1 py-1 1 rounded-[0.5rem] bg-red-400 md:py-[1rem] md:px-[1rem]">
                 Subscribe
